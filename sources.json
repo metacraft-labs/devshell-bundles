@@ -1,0 +1,22 @@
+{
+ "id": "19034d92aeafc35e",
+ "workspace_dir": "ws",
+ "unpacked_bytes": 60882,
+ "parts": [
+  {
+   "file": "src-0000",
+   "bytes": 14939,
+   "sha256": "c269b715df130409fde43cde7780f721e8114906f436d36637fb2beee15c1e56"
+  }
+ ],
+ "repos": {
+  ".": {
+   "branch": "agents",
+   "rev": "4a7a87c2753fcade33774e6ddb2bce1292a6343d"
+  },
+  "demo-repo": {
+   "branch": "agents",
+   "rev": "56892a3bb7a7601134fbc35dee1cbacaf30d8016"
+  }
+ }
+}
