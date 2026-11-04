@@ -1,0 +1,30 @@
+{
+ "id": "0c2fd5e27729198e",
+ "nix": "nix (Nix) 2.34.6",
+ "zstd": "/nix/store/yqgkjczmmxsp6l26nwriry7h3kq981vi-zstd-1.5.7-bin",
+ "paths": 68,
+ "unpacked_bytes": 434125128,
+ "parts": [
+  {
+   "file": "part-0000",
+   "bytes": 67108864,
+   "sha256": "d6c8628fbe99b98fc2cb9fa2a4b0a408e9899aef952776276c8c5131743c9490"
+  },
+  {
+   "file": "part-0001",
+   "bytes": 25260400,
+   "sha256": "d53f48b3b102c240a2b39db1037bf9e82005bddd0e2377f960afe698dc442c36"
+  }
+ ],
+ "registration": {
+  "file": "registration",
+  "sha256": "05425f8bf5c1be2198cb73a810630f766158a3cef633a64596a0d54d463754bb"
+ },
+ "shells": {
+  "demo-repo:default": {
+   "input": "/nix/store/bnabziis9s99jm46i9kmxni8rn0b3hya-inputDerivation-nix-shell",
+   "env": "/nix/store/5l84d6ngp1yj9sy98xk3xvjzqjbf2yds-demo-repo-default.env.sh"
+  }
+ },
+ "primary": "demo-repo:default"
+}
