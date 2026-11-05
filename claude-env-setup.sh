@@ -149,9 +149,21 @@ if [[ -n "$sid" ]]; then
   else
     log "sources $sid: $((s_bytes >> 20)) MiB to download"
     [[ -x "$zstd_path/bin/zstd" ]] || nix-store --realise "$zstd_path" >/dev/null 2>&1
+    # When the environment cloned the workspace root itself, unpack only the
+    # member checkouts: the bundle's copy of the root is from the commit it was
+    # built at, and mixing its files into another commit's checkout leaves
+    # strays (seen as 26 untracked root files in a cloud session).
+    only=()
+    if [[ -d "$SOURCES_PARENT/$wsdir/.git" ]]; then
+      mapfile -t only < <(python3 -I -c '
+import json, sys
+for rel in sorted(json.load(open(sys.argv[1]))["sources"]["repos"]):
+    if rel != ".": print(sys.argv[2] + "/" + rel)' "$work/latest.json" "$wsdir")
+      log "workspace root already checked out; restoring the ${#only[@]} member checkouts only"
+    fi
     if fetch "sources/$sid" sources \
       && cat "$work"/src-* | "$zstd_path/bin/zstd" -q -d --long=27 \
-          | timeout "$(left)" tar -C "$SOURCES_PARENT" --skip-old-files -xf -; then
+          | timeout "$(left)" tar -C "$SOURCES_PARENT" --skip-old-files -xf - "${only[@]}"; then
       mkdir -p "$(dirname "$marker")"; echo "$sid" > "$marker"
       # Member checkouts sit inside the root repository's directory. When the
       # environment cloned the root itself, its clone is the one kept, so hide
@@ -182,5 +194,14 @@ fi
 # evaluating `github:` flake inputs would fail there anyway).
 [[ "$ROOT" == / ]] || { log "test root $ROOT: not activating"; exit 0; }
 echo ". '$primary_env'" > /etc/profile.d/zz-devshell.sh
-log "dev shell activated via /etc/profile.d/zz-devshell.sh"
+# Claude Code's Bash-tool shells are not login shells: they never read
+# /etc/profile.d, but they do read /etc/bash.bashrc. Source the same file from
+# there, once, guarded so a login shell does not apply it twice.
+marker="# devshell-bundle activation"
+if ! grep -qF "$marker" /etc/bash.bashrc 2>/dev/null; then
+  printf '%s\n[ -n "${__DEVSHELL_ACTIVE:-}" ] || . /etc/profile.d/zz-devshell.sh\n' \
+    "$marker" >> /etc/bash.bashrc
+fi
+sed -i '1i [ -n "${__DEVSHELL_ACTIVE:-}" ] && return 0 2>/dev/null; export __DEVSHELL_ACTIVE=1' /etc/profile.d/zz-devshell.sh
+log "dev shell activated via /etc/profile.d/zz-devshell.sh and /etc/bash.bashrc"
 exit 0
