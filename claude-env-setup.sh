@@ -68,7 +68,11 @@ get() {
 }
 export -f get; export GITHUB_REPO url
 if [[ -n "$GITHUB_REPO" ]]; then
-  get "$work/latest.json" "$PROJECT/$SYSTEM/latest.json" latest
+  # Pin `latest` to its current commit: raw.githubusercontent.com caches a
+  # branch URL for 5 minutes and ignores query strings, so a fresh publish
+  # could otherwise be missed. A commit URL never goes stale.
+  latest_ref="${DEVSHELL_LATEST_REF:-$(git ls-remote "https://github.com/$GITHUB_REPO" refs/heads/latest 2>/dev/null | cut -f1)}"
+  get "$work/latest.json" "$PROJECT/$SYSTEM/latest.json" "${latest_ref:-latest}"
 else
   get "$work/latest.json" "$SYSTEM/latest.json"
 fi || { log "no bundle published for $PROJECT ${GITHUB_REPO:-at $url}"; exit 0; }
