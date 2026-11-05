@@ -1,0 +1,355 @@
+{
+ "id": "e3daf10968b60916",
+ "workspace_dir": "repro-workspace",
+ "unpacked_bytes": 2884151040,
+ "parts": [
+  {
+   "file": "src-0000",
+   "bytes": 67108864,
+   "sha256": "60d2901ef03b716467fd87df020f1f7abf2ad9d94f5da3e3ac24c8a89b62ad69"
+  },
+  {
+   "file": "src-0001",
+   "bytes": 67108864,
+   "sha256": "9d440390f4e10e9612e24bd457e1b6f8809c8e985df40b7ad39db61c865fbb3c"
+  },
+  {
+   "file": "src-0002",
+   "bytes": 67108864,
+   "sha256": "971202f9f29b81e054789b5776a8b3e803f936d88fec62a314b0e9c644792307"
+  },
+  {
+   "file": "src-0003",
+   "bytes": 67108864,
+   "sha256": "c3c34ef321820c6f381bab5543ad8510bb623badc8e565552a6fa9e21e7eda3e"
+  },
+  {
+   "file": "src-0004",
+   "bytes": 67108864,
+   "sha256": "7f45821377a3b03cef473f269e40d7bfeacf61a76d51895ea824abcd759a037b"
+  },
+  {
+   "file": "src-0005",
+   "bytes": 67108864,
+   "sha256": "624642625b70ccef918815279eed9e4d37e1950cbcbd6fd343822158f1ccf08b"
+  },
+  {
+   "file": "src-0006",
+   "bytes": 67108864,
+   "sha256": "f58539e08b70810fb5439dbb3a6b2b391ab53320b6b822a562ba29282a3d97b6"
+  },
+  {
+   "file": "src-0007",
+   "bytes": 67108864,
+   "sha256": "3883d6c978db3d3c350d74553e0a3b4dfd52245b2151fe97a39ce5136696a930"
+  },
+  {
+   "file": "src-0008",
+   "bytes": 67108864,
+   "sha256": "3b195e30153a71acfaa10b90486e6f3de9e58b380112ac79715e8c36d3a1f693"
+  },
+  {
+   "file": "src-0009",
+   "bytes": 67108864,
+   "sha256": "7176818007eb5091208629400c060344f14950703523d4b461c3485f932524c1"
+  },
+  {
+   "file": "src-0010",
+   "bytes": 67108864,
+   "sha256": "998a056e60ca67978dd291c491c57729468106fc10f786a589474a2f8e7aa9e5"
+  },
+  {
+   "file": "src-0011",
+   "bytes": 67108864,
+   "sha256": "c2b746fa3152c02f927ec12c57e6dd3683043cd236b6df137c4fb2860756bf01"
+  },
+  {
+   "file": "src-0012",
+   "bytes": 67108864,
+   "sha256": "371683fd56d1b78a3c6f810908467a9bede5de1957b992ded79030a84a6d460d"
+  },
+  {
+   "file": "src-0013",
+   "bytes": 67108864,
+   "sha256": "d2fa0993e1280a8eb62f53b50d16b6be1b47e3302495f932f9ba32e4fe2f8633"
+  },
+  {
+   "file": "src-0014",
+   "bytes": 67108864,
+   "sha256": "e537a5739b4751aeadd328c458f8c5f28aecc83833f5dea1904ea7a4a1abbacd"
+  },
+  {
+   "file": "src-0015",
+   "bytes": 67108864,
+   "sha256": "993456d6608871b044cc7f5bf51a8816282d19c7ed9b2325397def5bc3100114"
+  },
+  {
+   "file": "src-0016",
+   "bytes": 67108864,
+   "sha256": "88e8347973a2d2de42ebb83cd7f868510d0dc20c7c4338e89fe264f1fc76b701"
+  },
+  {
+   "file": "src-0017",
+   "bytes": 67108864,
+   "sha256": "25c7ede5dfe93828b6308be74a3011897126b98bcb432d18ce0822dede5316ea"
+  },
+  {
+   "file": "src-0018",
+   "bytes": 67108864,
+   "sha256": "58637002dc50880a4c8c4e2f25030d1d7de2ab9636803917b251fd25d7293ab5"
+  },
+  {
+   "file": "src-0019",
+   "bytes": 67108864,
+   "sha256": "c81c40b555bf33cb372970b97ace987b3c46290dfd1c498afefbe7e4a5432f8c"
+  },
+  {
+   "file": "src-0020",
+   "bytes": 67108864,
+   "sha256": "9b75e4c4c47b9b7ec09d3592ea2c9ee992f11f6da8587381a958bf1915db72bc"
+  },
+  {
+   "file": "src-0021",
+   "bytes": 67108864,
+   "sha256": "a868fa88ea10443f7702f24fc0f39b9cc41ba81bd79fface43f4ef18edbea2f8"
+  },
+  {
+   "file": "src-0022",
+   "bytes": 67108864,
+   "sha256": "58ed99e8cd3057a8fa855156c34bee3b51bce5cc40ba6bf211e0e2af774fb904"
+  },
+  {
+   "file": "src-0023",
+   "bytes": 67108864,
+   "sha256": "cb8a30133736b5654aa92acd7eca1fc17fe2c908131fa3edbca1de8808e99f1d"
+  },
+  {
+   "file": "src-0024",
+   "bytes": 67108864,
+   "sha256": "6a0dd8b99de40c1324abf86a341b6dd82346c52cad3f715231b583eeb9d9262e"
+  },
+  {
+   "file": "src-0025",
+   "bytes": 67108864,
+   "sha256": "ba05b59fdb30777ad342fcfbf559213a72c3d78e844c43c3fc1249a52b4a0394"
+  },
+  {
+   "file": "src-0026",
+   "bytes": 67108864,
+   "sha256": "c37d6360a9e80dd76d3e3ec655e414838fd6dc53972e23a88d6256a85054d287"
+  },
+  {
+   "file": "src-0027",
+   "bytes": 67108864,
+   "sha256": "6cfca58d228222797b20e3610a49f40728a93b643186f0a06f2edec417f61fba"
+  },
+  {
+   "file": "src-0028",
+   "bytes": 67108864,
+   "sha256": "988c785014ca1d8e1702f07a88f1a3d9be22f9455399f6804b1b112c99fd2ce6"
+  },
+  {
+   "file": "src-0029",
+   "bytes": 67108864,
+   "sha256": "76de31fcf4d4f50c36d04749a4d00fe69ed7d108271d5197ea1bb5466189d512"
+  },
+  {
+   "file": "src-0030",
+   "bytes": 67108864,
+   "sha256": "d25c13fcb3b0b7c5843cca207d959af90bce0752b78347772143a42774ff41c8"
+  },
+  {
+   "file": "src-0031",
+   "bytes": 67108864,
+   "sha256": "f5e97a9d4f38e96e756e3358bd45600cc4da96af8dcf68d1df0f2fd64c75fe6d"
+  },
+  {
+   "file": "src-0032",
+   "bytes": 67108864,
+   "sha256": "854ad95428f8209bc8182cfe4c8d339b42e7dc5fcc1a1b1f57587fc1b7cb5d03"
+  },
+  {
+   "file": "src-0033",
+   "bytes": 43677188,
+   "sha256": "1ac39de70ec14b69da2d4901d3c732a0ffa3cb76e41871725c4ae67597fb01cd"
+  }
+ ],
+ "repos": {
+  ".": {
+   "branch": "agents",
+   "rev": "d0222bfef70b143060d17034722297dffa9c2074"
+  },
+  "awesome-claude-corporate-skills": {
+   "branch": "main",
+   "rev": "78dbc7c719920610d5b1c60bd13d9bb52d711c7a"
+  },
+  "claude-for-legal": {
+   "branch": "main",
+   "rev": "4a6c651889c97cc9140580363c73e0eb17379c2b"
+  },
+  "garm": {
+   "branch": "main",
+   "rev": "158fe569f61a491198501162805be4cd0c843da0"
+  },
+  "gosti": {
+   "branch": "agents",
+   "rev": "f3b84ac779c62e3313a00febda199ce82b933ffd"
+  },
+  "gosti-pm": {
+   "branch": "latest",
+   "rev": "657a9640a35e70eb9697d58725e7fad95f0b7723"
+  },
+  "grc-skills": {
+   "branch": "main",
+   "rev": "aab13e1eb1dbf3b537b66f98d9b5eb52db0a7c25"
+  },
+  "infra": {
+   "branch": "live",
+   "rev": "c39ef90ed80ad091bbf1cd17c35723cf1268a0b9"
+  },
+  "io-mon": {
+   "branch": "agents",
+   "rev": "3f50a3d7e8526f8d157c599b62b5dce264bd2a42"
+  },
+  "marketingskills": {
+   "branch": "main",
+   "rev": "88c79f6528a9347420e57ceb1fff9a60de651768"
+  },
+  "metacraft-dev-guidelines": {
+   "branch": "latest",
+   "rev": "ce6dab1901a2ccd16c732ed4bbc521da7ad482bd"
+  },
+  "metacraft-github-actions": {
+   "branch": "agents",
+   "rev": "3dafd20b3e5c8d5447e4793bcc9b72106f83e49f"
+  },
+  "metacraft-pm": {
+   "branch": "latest",
+   "rev": "3bc7daf1d9eec2417244f8fe6a2b852286b49244"
+  },
+  "nim-everywhere": {
+   "branch": "agents",
+   "rev": "1ef439320e7c11cad9a11a13960e94d37afe8482"
+  },
+  "nim-shm-gset": {
+   "branch": "agents",
+   "rev": "6333cc915689559b00f81371734783c2e894ca45"
+  },
+  "nim-shm-lease": {
+   "branch": "agents",
+   "rev": "22e3100cdb4fbc374689ddac55b4b32c90654140"
+  },
+  "nim-shm-queue": {
+   "branch": "agents",
+   "rev": "84fd76b174d4868e703ba3d599668ee340e0b6ea"
+  },
+  "nim-stackable-hooks": {
+   "branch": "agents",
+   "rev": "c1d55ce33fb2a29e4cf8d8bdbe1713f355370d0a"
+  },
+  "nixos-modules": {
+   "branch": "agents",
+   "rev": "e78d5c603dcd912da501a73cc2e8c1b7c1b58f16"
+  },
+  "reprobuild": {
+   "branch": "agents",
+   "rev": "4180220b405006d64c87b28cb5885f0deda39b6f"
+  },
+  "reprobuild-brew-packages": {
+   "branch": "agents",
+   "rev": "49f4057f05b2ebd69d764208279ad5c8b1379fab"
+  },
+  "reprobuild-cmake": {
+   "branch": "reprobuild",
+   "rev": "67103c8590bda727f4a421c5e05a7b216d7782f7"
+  },
+  "reprobuild-ct-test-runner": {
+   "branch": "agents",
+   "rev": "69167f4226e0faca4fb64cb0e913c7b49eddf853"
+  },
+  "reprobuild-examples": {
+   "branch": "agents",
+   "rev": "6387d33bdaed57da72867f99fd6108f19c45a233"
+  },
+  "reprobuild-llm-agent-packages": {
+   "branch": "dev",
+   "rev": "383df06d6fa9b694d1cd19cb4e6377eb32cfbf3d"
+  },
+  "reprobuild-nix-packages": {
+   "branch": "agents",
+   "rev": "bb14c2e1b25e50be320261bea93400263f2deeb5"
+  },
+  "reprobuild-packages": {
+   "branch": "agents",
+   "rev": "b68b01d3a775709869b1f2ba5f7f70f01873f20c"
+  },
+  "reprobuild-pm": {
+   "branch": "latest",
+   "rev": "74ccf3011a809afdee2420ecdf4e30b95344b902"
+  },
+  "reprobuild-scoop-packages": {
+   "branch": "agents",
+   "rev": "843f7c3a638e5503332baeb56c5c85dd60661280"
+  },
+  "reprobuild-test-adapters": {
+   "branch": "agents",
+   "rev": "b0fc1bcb9c2f1cb6a7fc3a558592ae7051782c24"
+  },
+  "runquota": {
+   "branch": "agents",
+   "rev": "672adfd3e9bcd0256f0e7b0b103c1acd68699878"
+  },
+  "stackable-hooks-macos-tools": {
+   "branch": "agents",
+   "rev": "1ad378d58776ec9b6cc73e1c27b8e53c15676f03"
+  },
+  "test-certificates-spec": {
+   "branch": "latest",
+   "rev": "9ebbcb3c9e539f294dbe125dea87c445b270523e"
+  },
+  "test-certificates-tools": {
+   "branch": "agents",
+   "rev": "4b395de551d86c745d6eb8ebf7c7228df25298f5"
+  },
+  "turing-db-pm": {
+   "branch": "latest",
+   "rev": "e0a3763321500641fe5bf063d7dc2c12532107e3"
+  },
+  "references/radicle": {
+   "branch": "main",
+   "rev": "e6fe52075382479165467933baa23dcfd185006e"
+  },
+  "reprobuild/references/0install": {
+   "branch": "master",
+   "rev": "8ab22bc185ec196497bd956980ffee65de0cd656"
+  },
+  "reprobuild/references/buildxl": {
+   "branch": "main",
+   "rev": "bb47829d070db954ea03c1bac9f524c5c175fe41"
+  },
+  "reprobuild/references/mold": {
+   "branch": "main",
+   "rev": "331ac663668dc0b1f4949403854613b9b1913025"
+  },
+  "reprobuild/references/nix": {
+   "branch": "master",
+   "rev": "7ee0a4d5bca3e8398032998f4293b37060d1e08a"
+  },
+  "reprobuild/references/opentofu": {
+   "branch": "main",
+   "rev": "9f21216fa0565fbf174198645daaa8ce6a4e0162"
+  },
+  "reprobuild/references/spack": {
+   "branch": "develop",
+   "rev": "13240694c3fbc0bb2c0f34972524549b7da424e4"
+  },
+  "reprobuild/references/terraform": {
+   "branch": "main",
+   "rev": "eb0970714fb46d61775d003f8db43642814f6f78"
+  },
+  "reprobuild/references/wild": {
+   "branch": "main",
+   "rev": "92c0818ed02347790692a3d596776419be51b61a"
+  }
+ }
+}
