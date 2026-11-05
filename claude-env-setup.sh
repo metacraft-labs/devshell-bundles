@@ -53,9 +53,15 @@ url="$BASE/$PROJECT"
 # get <out> <path under the project> [<github branch>]
 get() {
   if [[ -n "$GITHUB_REPO" ]]; then
+    # raw.githubusercontent.com first: it serves a PUBLIC repository to anyone,
+    # including a setup script, which the session proxy grants no repository
+    # access (the API answers 403 during setup even for attached repos). The
+    # contents API is the fallback for a private repository attached to a
+    # running session.
     local ref; ref="$(python3 -I -c 'import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe=""))' "$3")"
-    curl -fsSL --retry 3 -H 'Accept: application/vnd.github.raw' -o "$1" \
-      "https://api.github.com/repos/$GITHUB_REPO/contents/$2?ref=$ref"
+    curl -fsSL --retry 3 -o "$1" "https://raw.githubusercontent.com/$GITHUB_REPO/$3/$2" 2>/dev/null \
+      || curl -fsSL --retry 3 -H 'Accept: application/vnd.github.raw' -o "$1" \
+           "https://api.github.com/repos/$GITHUB_REPO/contents/$2?ref=$ref"
   else
     curl -fsS --retry 3 -o "$1" "$url/$2"
   fi
