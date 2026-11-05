@@ -149,6 +149,22 @@ if [[ -n "$sid" ]]; then
       && cat "$work"/src-* | "$zstd_path/bin/zstd" -q -d --long=27 \
           | timeout "$(left)" tar -C "$SOURCES_PARENT" --skip-old-files -xf -; then
       mkdir -p "$(dirname "$marker")"; echo "$sid" > "$marker"
+      # Member checkouts sit inside the root repository's directory. When the
+      # environment cloned the root itself, its clone is the one kept, so hide
+      # the members from its `git status` the way a repro workspace does:
+      # .git/info/exclude is local and never pushed.
+      python3 -I - "$work/latest.json" "$SOURCES_PARENT/$wsdir" <<'PY'
+import json, os, sys
+m = json.load(open(sys.argv[1]))["sources"]
+root = sys.argv[2]
+excl = os.path.join(root, ".git", "info", "exclude")
+if os.path.isdir(os.path.join(root, ".git")):
+    os.makedirs(os.path.dirname(excl), exist_ok=True)
+    have = set(open(excl).read().split()) if os.path.exists(excl) else set()
+    new = [f"/{rel}/" for rel in sorted(m["repos"]) if rel != "." and f"/{rel}/" not in have]
+    with open(excl, "a") as f:
+        f.writelines(line + "\n" for line in new)
+PY
       log "sources unpacked into $SOURCES_PARENT/$wsdir"
     else
       log "sources did not download, verify or unpack in the budget"
