@@ -1,0 +1,606 @@
+{
+ "schema": "metacraft.devshell-bundle.v2",
+ "project": "reprobuild",
+ "system": "x86_64-linux",
+ "created": "2026-11-05T01:02:43Z",
+ "compression": {
+  "format": "tar+zstd",
+  "zstd_args": [
+   "--long=27"
+  ]
+ },
+ "closure": {
+  "id": "bde672d771bf4fee",
+  "nix": "nix (Nix) 2.34.6",
+  "zstd": "/nix/store/yqgkjczmmxsp6l26nwriry7h3kq981vi-zstd-1.5.7-bin",
+  "paths": 621,
+  "unpacked_bytes": 6786872016,
+  "parts": [
+   {
+    "file": "part-0000",
+    "bytes": 67108864,
+    "sha256": "a1a8303db9c1defca923cb8282246b9fc9e5ce65cd563362d1df9b5144a48684",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0001",
+    "bytes": 67108864,
+    "sha256": "db73d68cfc8c0f905737f53890c28ac6ee6806456802fcdd8a79429a78414f84",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0002",
+    "bytes": 67108864,
+    "sha256": "9ee941bab17fb700528816db282321a00079db76454f51960fef0843a1972b11",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0003",
+    "bytes": 67108864,
+    "sha256": "753a3834cc1d4238eff63b01cb24eea074124688bd91a6c952247a3593406bb7",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0004",
+    "bytes": 67108864,
+    "sha256": "3d34bc1ea4982a58aef9b951bcae14ca7d5e6a98b740408fbfa454bad303238b",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0005",
+    "bytes": 67108864,
+    "sha256": "8280613ccbc3caf83e6db11f1ecc74b61bfc89987f0c8da949c96ec683e7a3b9",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0006",
+    "bytes": 67108864,
+    "sha256": "cd3d047f5e76acfaee2d6ba77380502cb8e8c5638478fcfc341a60cbd03a8a5d",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0007",
+    "bytes": 67108864,
+    "sha256": "887739cfcb71bd05fdf0ea55ea17291736ebe9a7a8e013d939084e10b764c512",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0008",
+    "bytes": 67108864,
+    "sha256": "e1f9a427e299ffc1fced67f59005b1334df69a567068a3602ed3bfe5096a6107",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0009",
+    "bytes": 67108864,
+    "sha256": "697d3c50ae8ed7e7a9fcf0587d5165afdccdae5a2137e2d812ea60c26b28ef06",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0010",
+    "bytes": 67108864,
+    "sha256": "be10623a12050e4e7471b5a795d7b08c125e98bf0d9efc8f9c8617d573f02849",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0011",
+    "bytes": 67108864,
+    "sha256": "0305fa2de6fc606b86c0c7fe4759f4cf3906dcf4a732f9cb5464e3513fe5c7fd",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0012",
+    "bytes": 67108864,
+    "sha256": "12304e1da9ec9389f9d31c141fe1f247332faae9455523675dc61ca133376dca",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0013",
+    "bytes": 67108864,
+    "sha256": "ac8b6f5012c54dc531ee74c864046516ade1e4837fe5d2681d9c84932e3ab4e9",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0014",
+    "bytes": 67108864,
+    "sha256": "040495a345a074f9593503ff027b29f30555434b4cf7edf04033444861eaba0d",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0015",
+    "bytes": 67108864,
+    "sha256": "588f9227c8b17329a976f0ff2b4eb9392f3ca119c3c369537fdd691f11ddac24",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0016",
+    "bytes": 67108864,
+    "sha256": "dedd39f488270f3dd16b70625db3d34f5c4b513c5b3b39ceeb3f76fc271767e7",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0017",
+    "bytes": 67108864,
+    "sha256": "817f43b844263e8c5f6bfa281bb73e41eead393d5a006dd4fe6863a0857c6114",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0018",
+    "bytes": 67108864,
+    "sha256": "bee977a8a52fe360314e54bdbd05a6ac57a77fc610d26c4d4acdf5b911eeb9d3",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b00"
+   },
+   {
+    "file": "part-0019",
+    "bytes": 67108864,
+    "sha256": "32502b7c8e534015addf2ed6341ee8c44c7d338c34abe2f1a553b80a162fc15e",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0020",
+    "bytes": 67108864,
+    "sha256": "a747b471507ab8c1eda9f725583308a5efd7eece698651000db1cc6e5c18ea7d",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0021",
+    "bytes": 67108864,
+    "sha256": "50b12c0a3c3786a68829698eb50b2b2a3e1d43cf8ee1bcb1478e63c0a6e4eb5e",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0022",
+    "bytes": 67108864,
+    "sha256": "906c4ed9640ef81a2b832d94455a1c3825cb380921f34eb3e5665629414a4a38",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0023",
+    "bytes": 67108864,
+    "sha256": "e0ef3354937abb8e769353918a8dfb952d978a500c0dba6ef522742bc80fa0ed",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0024",
+    "bytes": 67108864,
+    "sha256": "1ec8a9a2e57e78404a1f1cbdfea2b7064ec628310717b377e1571250cde37eac",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0025",
+    "bytes": 67108864,
+    "sha256": "6a06905d9e1e2ba6fc7e341b521ade37acb39f5df0c9fcb1ae7740f34d723ee9",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0026",
+    "bytes": 67108864,
+    "sha256": "a77cdd713287906bf1e657d453fa820a06f96832c8318992d213870b7d0caf98",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0027",
+    "bytes": 67108864,
+    "sha256": "ba8a3530bab5014e7f68f7f69525e800934671086d13130892773e4b98b0fc2d",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0028",
+    "bytes": 67108864,
+    "sha256": "5f005cf6869236329abe12e8a080dca91a59003f7f6a435294720ecdc933ad8c",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   },
+   {
+    "file": "part-0029",
+    "bytes": 53187516,
+    "sha256": "2a03238a687ad80da906ce24b645bdc290e2177f3307848ceea300593b39741a",
+    "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+   }
+  ],
+  "registration": {
+   "file": "registration",
+   "sha256": "8fb1405e4f7b5181349f2af8588136ae91dcdd8dfd26e7758fee79e457044518",
+   "ref": "closure/reprobuild/x86_64-linux/bde672d771bf4fee/b01"
+  },
+  "shells": {
+   "workspace:default": {
+    "input": "/nix/store/vlg71g05n0x11054rwi9zj987ld57jbm-inputDerivation-nix-shell",
+    "env": "/nix/store/ppxpgf46ls57m2fw299dji6lzip5hk30-workspace-default.env.sh"
+   },
+   "reprobuild-slim:default": {
+    "input": "/nix/store/xd9dslap1wk80p87wj9by7b33rw3plpr-inputDerivation-nix-shell",
+    "env": "/nix/store/srbipdp436npszlm6sx2i7xwhd4jldyz-reprobuild-slim-default.env.sh"
+   }
+  },
+  "primary": "reprobuild-slim:default"
+ },
+ "sources": {
+  "id": "e3daf10968b60916",
+  "workspace_dir": "repro-workspace",
+  "unpacked_bytes": 2884151040,
+  "parts": [
+   {
+    "file": "src-0000",
+    "bytes": 67108864,
+    "sha256": "60d2901ef03b716467fd87df020f1f7abf2ad9d94f5da3e3ac24c8a89b62ad69",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0001",
+    "bytes": 67108864,
+    "sha256": "9d440390f4e10e9612e24bd457e1b6f8809c8e985df40b7ad39db61c865fbb3c",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0002",
+    "bytes": 67108864,
+    "sha256": "971202f9f29b81e054789b5776a8b3e803f936d88fec62a314b0e9c644792307",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0003",
+    "bytes": 67108864,
+    "sha256": "c3c34ef321820c6f381bab5543ad8510bb623badc8e565552a6fa9e21e7eda3e",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0004",
+    "bytes": 67108864,
+    "sha256": "7f45821377a3b03cef473f269e40d7bfeacf61a76d51895ea824abcd759a037b",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0005",
+    "bytes": 67108864,
+    "sha256": "624642625b70ccef918815279eed9e4d37e1950cbcbd6fd343822158f1ccf08b",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0006",
+    "bytes": 67108864,
+    "sha256": "f58539e08b70810fb5439dbb3a6b2b391ab53320b6b822a562ba29282a3d97b6",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0007",
+    "bytes": 67108864,
+    "sha256": "3883d6c978db3d3c350d74553e0a3b4dfd52245b2151fe97a39ce5136696a930",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0008",
+    "bytes": 67108864,
+    "sha256": "3b195e30153a71acfaa10b90486e6f3de9e58b380112ac79715e8c36d3a1f693",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0009",
+    "bytes": 67108864,
+    "sha256": "7176818007eb5091208629400c060344f14950703523d4b461c3485f932524c1",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0010",
+    "bytes": 67108864,
+    "sha256": "998a056e60ca67978dd291c491c57729468106fc10f786a589474a2f8e7aa9e5",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0011",
+    "bytes": 67108864,
+    "sha256": "c2b746fa3152c02f927ec12c57e6dd3683043cd236b6df137c4fb2860756bf01",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0012",
+    "bytes": 67108864,
+    "sha256": "371683fd56d1b78a3c6f810908467a9bede5de1957b992ded79030a84a6d460d",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0013",
+    "bytes": 67108864,
+    "sha256": "d2fa0993e1280a8eb62f53b50d16b6be1b47e3302495f932f9ba32e4fe2f8633",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0014",
+    "bytes": 67108864,
+    "sha256": "e537a5739b4751aeadd328c458f8c5f28aecc83833f5dea1904ea7a4a1abbacd",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0015",
+    "bytes": 67108864,
+    "sha256": "993456d6608871b044cc7f5bf51a8816282d19c7ed9b2325397def5bc3100114",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0016",
+    "bytes": 67108864,
+    "sha256": "88e8347973a2d2de42ebb83cd7f868510d0dc20c7c4338e89fe264f1fc76b701",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0017",
+    "bytes": 67108864,
+    "sha256": "25c7ede5dfe93828b6308be74a3011897126b98bcb432d18ce0822dede5316ea",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0018",
+    "bytes": 67108864,
+    "sha256": "58637002dc50880a4c8c4e2f25030d1d7de2ab9636803917b251fd25d7293ab5",
+    "ref": "sources/reprobuild/e3daf10968b60916/b00"
+   },
+   {
+    "file": "src-0019",
+    "bytes": 67108864,
+    "sha256": "c81c40b555bf33cb372970b97ace987b3c46290dfd1c498afefbe7e4a5432f8c",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0020",
+    "bytes": 67108864,
+    "sha256": "9b75e4c4c47b9b7ec09d3592ea2c9ee992f11f6da8587381a958bf1915db72bc",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0021",
+    "bytes": 67108864,
+    "sha256": "a868fa88ea10443f7702f24fc0f39b9cc41ba81bd79fface43f4ef18edbea2f8",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0022",
+    "bytes": 67108864,
+    "sha256": "58ed99e8cd3057a8fa855156c34bee3b51bce5cc40ba6bf211e0e2af774fb904",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0023",
+    "bytes": 67108864,
+    "sha256": "cb8a30133736b5654aa92acd7eca1fc17fe2c908131fa3edbca1de8808e99f1d",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0024",
+    "bytes": 67108864,
+    "sha256": "6a0dd8b99de40c1324abf86a341b6dd82346c52cad3f715231b583eeb9d9262e",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0025",
+    "bytes": 67108864,
+    "sha256": "ba05b59fdb30777ad342fcfbf559213a72c3d78e844c43c3fc1249a52b4a0394",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0026",
+    "bytes": 67108864,
+    "sha256": "c37d6360a9e80dd76d3e3ec655e414838fd6dc53972e23a88d6256a85054d287",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0027",
+    "bytes": 67108864,
+    "sha256": "6cfca58d228222797b20e3610a49f40728a93b643186f0a06f2edec417f61fba",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0028",
+    "bytes": 67108864,
+    "sha256": "988c785014ca1d8e1702f07a88f1a3d9be22f9455399f6804b1b112c99fd2ce6",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0029",
+    "bytes": 67108864,
+    "sha256": "76de31fcf4d4f50c36d04749a4d00fe69ed7d108271d5197ea1bb5466189d512",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0030",
+    "bytes": 67108864,
+    "sha256": "d25c13fcb3b0b7c5843cca207d959af90bce0752b78347772143a42774ff41c8",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0031",
+    "bytes": 67108864,
+    "sha256": "f5e97a9d4f38e96e756e3358bd45600cc4da96af8dcf68d1df0f2fd64c75fe6d",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0032",
+    "bytes": 67108864,
+    "sha256": "854ad95428f8209bc8182cfe4c8d339b42e7dc5fcc1a1b1f57587fc1b7cb5d03",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   },
+   {
+    "file": "src-0033",
+    "bytes": 43677188,
+    "sha256": "1ac39de70ec14b69da2d4901d3c732a0ffa3cb76e41871725c4ae67597fb01cd",
+    "ref": "sources/reprobuild/e3daf10968b60916/b01"
+   }
+  ],
+  "repos": {
+   ".": {
+    "branch": "agents",
+    "rev": "d0222bfef70b143060d17034722297dffa9c2074"
+   },
+   "awesome-claude-corporate-skills": {
+    "branch": "main",
+    "rev": "78dbc7c719920610d5b1c60bd13d9bb52d711c7a"
+   },
+   "claude-for-legal": {
+    "branch": "main",
+    "rev": "4a6c651889c97cc9140580363c73e0eb17379c2b"
+   },
+   "garm": {
+    "branch": "main",
+    "rev": "158fe569f61a491198501162805be4cd0c843da0"
+   },
+   "gosti": {
+    "branch": "agents",
+    "rev": "f3b84ac779c62e3313a00febda199ce82b933ffd"
+   },
+   "gosti-pm": {
+    "branch": "latest",
+    "rev": "657a9640a35e70eb9697d58725e7fad95f0b7723"
+   },
+   "grc-skills": {
+    "branch": "main",
+    "rev": "aab13e1eb1dbf3b537b66f98d9b5eb52db0a7c25"
+   },
+   "infra": {
+    "branch": "live",
+    "rev": "c39ef90ed80ad091bbf1cd17c35723cf1268a0b9"
+   },
+   "io-mon": {
+    "branch": "agents",
+    "rev": "3f50a3d7e8526f8d157c599b62b5dce264bd2a42"
+   },
+   "marketingskills": {
+    "branch": "main",
+    "rev": "88c79f6528a9347420e57ceb1fff9a60de651768"
+   },
+   "metacraft-dev-guidelines": {
+    "branch": "latest",
+    "rev": "ce6dab1901a2ccd16c732ed4bbc521da7ad482bd"
+   },
+   "metacraft-github-actions": {
+    "branch": "agents",
+    "rev": "3dafd20b3e5c8d5447e4793bcc9b72106f83e49f"
+   },
+   "metacraft-pm": {
+    "branch": "latest",
+    "rev": "3bc7daf1d9eec2417244f8fe6a2b852286b49244"
+   },
+   "nim-everywhere": {
+    "branch": "agents",
+    "rev": "1ef439320e7c11cad9a11a13960e94d37afe8482"
+   },
+   "nim-shm-gset": {
+    "branch": "agents",
+    "rev": "6333cc915689559b00f81371734783c2e894ca45"
+   },
+   "nim-shm-lease": {
+    "branch": "agents",
+    "rev": "22e3100cdb4fbc374689ddac55b4b32c90654140"
+   },
+   "nim-shm-queue": {
+    "branch": "agents",
+    "rev": "84fd76b174d4868e703ba3d599668ee340e0b6ea"
+   },
+   "nim-stackable-hooks": {
+    "branch": "agents",
+    "rev": "c1d55ce33fb2a29e4cf8d8bdbe1713f355370d0a"
+   },
+   "nixos-modules": {
+    "branch": "agents",
+    "rev": "e78d5c603dcd912da501a73cc2e8c1b7c1b58f16"
+   },
+   "reprobuild": {
+    "branch": "agents",
+    "rev": "4180220b405006d64c87b28cb5885f0deda39b6f"
+   },
+   "reprobuild-brew-packages": {
+    "branch": "agents",
+    "rev": "49f4057f05b2ebd69d764208279ad5c8b1379fab"
+   },
+   "reprobuild-cmake": {
+    "branch": "reprobuild",
+    "rev": "67103c8590bda727f4a421c5e05a7b216d7782f7"
+   },
+   "reprobuild-ct-test-runner": {
+    "branch": "agents",
+    "rev": "69167f4226e0faca4fb64cb0e913c7b49eddf853"
+   },
+   "reprobuild-examples": {
+    "branch": "agents",
+    "rev": "6387d33bdaed57da72867f99fd6108f19c45a233"
+   },
+   "reprobuild-llm-agent-packages": {
+    "branch": "dev",
+    "rev": "383df06d6fa9b694d1cd19cb4e6377eb32cfbf3d"
+   },
+   "reprobuild-nix-packages": {
+    "branch": "agents",
+    "rev": "bb14c2e1b25e50be320261bea93400263f2deeb5"
+   },
+   "reprobuild-packages": {
+    "branch": "agents",
+    "rev": "b68b01d3a775709869b1f2ba5f7f70f01873f20c"
+   },
+   "reprobuild-pm": {
+    "branch": "latest",
+    "rev": "74ccf3011a809afdee2420ecdf4e30b95344b902"
+   },
+   "reprobuild-scoop-packages": {
+    "branch": "agents",
+    "rev": "843f7c3a638e5503332baeb56c5c85dd60661280"
+   },
+   "reprobuild-test-adapters": {
+    "branch": "agents",
+    "rev": "b0fc1bcb9c2f1cb6a7fc3a558592ae7051782c24"
+   },
+   "runquota": {
+    "branch": "agents",
+    "rev": "672adfd3e9bcd0256f0e7b0b103c1acd68699878"
+   },
+   "stackable-hooks-macos-tools": {
+    "branch": "agents",
+    "rev": "1ad378d58776ec9b6cc73e1c27b8e53c15676f03"
+   },
+   "test-certificates-spec": {
+    "branch": "latest",
+    "rev": "9ebbcb3c9e539f294dbe125dea87c445b270523e"
+   },
+   "test-certificates-tools": {
+    "branch": "agents",
+    "rev": "4b395de551d86c745d6eb8ebf7c7228df25298f5"
+   },
+   "turing-db-pm": {
+    "branch": "latest",
+    "rev": "e0a3763321500641fe5bf063d7dc2c12532107e3"
+   },
+   "references/radicle": {
+    "branch": "main",
+    "rev": "e6fe52075382479165467933baa23dcfd185006e"
+   },
+   "reprobuild/references/0install": {
+    "branch": "master",
+    "rev": "8ab22bc185ec196497bd956980ffee65de0cd656"
+   },
+   "reprobuild/references/buildxl": {
+    "branch": "main",
+    "rev": "bb47829d070db954ea03c1bac9f524c5c175fe41"
+   },
+   "reprobuild/references/mold": {
+    "branch": "main",
+    "rev": "331ac663668dc0b1f4949403854613b9b1913025"
+   },
+   "reprobuild/references/nix": {
+    "branch": "master",
+    "rev": "7ee0a4d5bca3e8398032998f4293b37060d1e08a"
+   },
+   "reprobuild/references/opentofu": {
+    "branch": "main",
+    "rev": "9f21216fa0565fbf174198645daaa8ce6a4e0162"
+   },
+   "reprobuild/references/spack": {
+    "branch": "develop",
+    "rev": "13240694c3fbc0bb2c0f34972524549b7da424e4"
+   },
+   "reprobuild/references/terraform": {
+    "branch": "main",
+    "rev": "eb0970714fb46d61775d003f8db43642814f6f78"
+   },
+   "reprobuild/references/wild": {
+    "branch": "main",
+    "rev": "92c0818ed02347790692a3d596776419be51b61a"
+   }
+  }
+ }
+}
