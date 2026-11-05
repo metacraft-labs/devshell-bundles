@@ -36,6 +36,11 @@ ROOT="${DEVSHELL_ROOT:-/}"
 store=(); [[ "$ROOT" != / ]] && store=(--store "$ROOT")
 
 start=$(date +%s)
+# Keep a log a later session can read: the environment's own setup log shows
+# only that the script ran, not what it did.
+LOG="${DEVSHELL_LOG:-/var/log/devshell-bundle.log}"
+exec > >(tee -a "$LOG") 2>&1
+echo "[devshell-bundle] $(date -u +%FT%TZ) project=$PROJECT source=${GITHUB_REPO:-$BASE}"
 log() { echo "[devshell-bundle +$(( $(date +%s) - start ))s] $*"; }
 left() { echo $(( BUDGET_SECONDS - ($(date +%s) - start) )); }
 
