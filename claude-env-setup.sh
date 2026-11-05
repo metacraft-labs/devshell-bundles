@@ -61,7 +61,7 @@ get() {
     local ref; ref="$(python3 -I -c 'import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe=""))' "$3")"
     curl -fsSL --retry 3 -o "$1" "https://raw.githubusercontent.com/$GITHUB_REPO/$3/$2" 2>/dev/null \
       || curl -fsSL --retry 3 -H 'Accept: application/vnd.github.raw' -o "$1" \
-           "https://api.github.com/repos/$GITHUB_REPO/contents/$2?ref=$ref"
+          "https://api.github.com/repos/$GITHUB_REPO/contents/$2?ref=$ref"
   else
     curl -fsS --retry 3 -o "$1" "$url/$2"
   fi
