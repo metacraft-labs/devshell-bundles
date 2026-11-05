@@ -1,0 +1,404 @@
+{
+ "id": "5471654d1a0c8c90",
+ "workspace_dir": "repro-workspace",
+ "unpacked_bytes": 5682727229,
+ "parts": [
+  {
+   "file": "src-0000",
+   "bytes": 67108864,
+   "sha256": "70e5effc965ba9a61ba6e31bd9962c3c58aa8f46cabee21ceda39b8e1066327d"
+  },
+  {
+   "file": "src-0001",
+   "bytes": 67108864,
+   "sha256": "2a73ea0439bb0971516965e72d724f8fc2d461d3638ecf7066da2c4b26562899"
+  },
+  {
+   "file": "src-0002",
+   "bytes": 67108864,
+   "sha256": "8fb338f1e5a5a2a6c3ed55178eaf0a85b311b1dfd11b5086a0ae7d62949c23bf"
+  },
+  {
+   "file": "src-0003",
+   "bytes": 67108864,
+   "sha256": "a5eb0308b5a87c650aea62d79449445257e8eca163bbf9d2de60d823349c6471"
+  },
+  {
+   "file": "src-0004",
+   "bytes": 67108864,
+   "sha256": "cbf1d633376528d872f1101b73fe1d124b35c9cb431cc459e40cac038091f7f1"
+  },
+  {
+   "file": "src-0005",
+   "bytes": 67108864,
+   "sha256": "f5677061379506a6cfa54de4a3fbef3e2de66bfad9aaab9e6186bf8c4744b368"
+  },
+  {
+   "file": "src-0006",
+   "bytes": 67108864,
+   "sha256": "b1239f2720b9de83ebe58da8c03a9c1d0c5d799117990a40afa90a090864be9c"
+  },
+  {
+   "file": "src-0007",
+   "bytes": 67108864,
+   "sha256": "8c275a00de29a7ba45ce433bc15f413bf1ed440e36df231fbb3f5def884debd6"
+  },
+  {
+   "file": "src-0008",
+   "bytes": 67108864,
+   "sha256": "07c94d3d3273168678e7496460d1a199f0562e57a6d6a2b8daaab53d821a046e"
+  },
+  {
+   "file": "src-0009",
+   "bytes": 67108864,
+   "sha256": "3bf3dd84056d009ecf3cf82b84c285f697efd2af7290411ed6d6dbfca5b14125"
+  },
+  {
+   "file": "src-0010",
+   "bytes": 67108864,
+   "sha256": "1f1fdbae919473a59393398b8a96ac2910f04f34e294f719dc96b89855f66db3"
+  },
+  {
+   "file": "src-0011",
+   "bytes": 67108864,
+   "sha256": "cc22f5336c4a02ebb256616fe75f134d02b7e0a000d8400db9846cda94d08f80"
+  },
+  {
+   "file": "src-0012",
+   "bytes": 67108864,
+   "sha256": "c53f12b1850f58e07c1a9563ed387a48db0093613bbcffa70bf1b40de0c26d61"
+  },
+  {
+   "file": "src-0013",
+   "bytes": 67108864,
+   "sha256": "50fa5d6f098dacfdb0024f89c72c09ad07cd51b0e7759a5a2a3316f6b451b7d9"
+  },
+  {
+   "file": "src-0014",
+   "bytes": 67108864,
+   "sha256": "1321175a30268a988288fddef72409a6c7422c9edf512daeeb4478883c05994b"
+  },
+  {
+   "file": "src-0015",
+   "bytes": 67108864,
+   "sha256": "b5429cb9c2349c06cd763166e194c4b914dd3f4d9dc4d7d34d0e5495ff081ce8"
+  },
+  {
+   "file": "src-0016",
+   "bytes": 67108864,
+   "sha256": "f33fa4ed5546458ec664184ea3dc823ed7a44e244733e9ead90bc313e1ab566f"
+  },
+  {
+   "file": "src-0017",
+   "bytes": 67108864,
+   "sha256": "a8d4c9f0232675b08c3569ab634102ff7d46e1c1551413344b051f855eb8a6f1"
+  },
+  {
+   "file": "src-0018",
+   "bytes": 67108864,
+   "sha256": "459db5f844e00b089ae6fb88a520759c6c1c9693ce7fba6d6472f031aaaf7277"
+  },
+  {
+   "file": "src-0019",
+   "bytes": 67108864,
+   "sha256": "7cc43914db8a0a2ce94b82250bab352620f977d1b434e84b90df047d9dfbc80e"
+  },
+  {
+   "file": "src-0020",
+   "bytes": 67108864,
+   "sha256": "8f6aed10b346c7d7af0a9bfff7faf6137c2a5f708fad6468108fa0192df1b6f9"
+  },
+  {
+   "file": "src-0021",
+   "bytes": 67108864,
+   "sha256": "37a15c95988f644a671780ed71e050d5c71d3041ab3d2dbdf4dc2d7852a5449b"
+  },
+  {
+   "file": "src-0022",
+   "bytes": 67108864,
+   "sha256": "15c7fa6a35ae5fa1899d0e100f00a20ab5417c7e8eaa86923e9344b106f535c9"
+  },
+  {
+   "file": "src-0023",
+   "bytes": 67108864,
+   "sha256": "2b339e94b1452d2a99c21fde849a37a0da573e60b97299f3ddf815258e4225b0"
+  },
+  {
+   "file": "src-0024",
+   "bytes": 67108864,
+   "sha256": "94027d0ef7117eb7c80ce5e38e06cd1e87c8a8b76116e89b807a173bc5eac457"
+  },
+  {
+   "file": "src-0025",
+   "bytes": 67108864,
+   "sha256": "e2ed90a97793c649568b9ef0bf89deb4d47067413d982e2de8a5f7a378bff795"
+  },
+  {
+   "file": "src-0026",
+   "bytes": 67108864,
+   "sha256": "14dcafcfe6d9781bd1865feae8e1e362b4edaae28fb258aa1fea7ff2df032e7e"
+  },
+  {
+   "file": "src-0027",
+   "bytes": 67108864,
+   "sha256": "c02daf4cdd9f68bb96b8d2ec185383611eb08a1bef5879d50f0bc48ca51fbc4e"
+  },
+  {
+   "file": "src-0028",
+   "bytes": 67108864,
+   "sha256": "624d998bd0f1957732ada1db44d93b20f0e48d93d35154f5b11afc6917e78f8b"
+  },
+  {
+   "file": "src-0029",
+   "bytes": 67108864,
+   "sha256": "e0ebffcee901047264fb8dd8349309112c3e81c20e7867bf14eec09ec759a3bd"
+  },
+  {
+   "file": "src-0030",
+   "bytes": 67108864,
+   "sha256": "e430e8e07e8e15c3a3a84948699b7e0b8ca99b9e16ee4d09122076f93e25b6de"
+  },
+  {
+   "file": "src-0031",
+   "bytes": 67108864,
+   "sha256": "8c63f071c1180784dcd02b62b170705886243c41c785d0e436b07c9a69249f11"
+  },
+  {
+   "file": "src-0032",
+   "bytes": 67108864,
+   "sha256": "def4e56f5b9254a167c5be3f1ff44a5f26d852ff3b4fd6edfaff66783e6cab8f"
+  },
+  {
+   "file": "src-0033",
+   "bytes": 67108864,
+   "sha256": "456fc6238197e68ce3d415f577f8de89bd97af8aad1f8b76f20309ffe401601b"
+  },
+  {
+   "file": "src-0034",
+   "bytes": 67108864,
+   "sha256": "3ac51fa83aaf073adc8a6409f58ba299dee0e1cb11aa514c7d4fa6f898947a34"
+  },
+  {
+   "file": "src-0035",
+   "bytes": 67108864,
+   "sha256": "0ac7620cd93910ff9d2f1abe414bd6294b14994f1d2c6379d77bec6fd22cecfc"
+  },
+  {
+   "file": "src-0036",
+   "bytes": 67108864,
+   "sha256": "d991334b45f7e369995a3c1cc8bb46f67b734f1f354fd74e6e278eb8318b354f"
+  },
+  {
+   "file": "src-0037",
+   "bytes": 67108864,
+   "sha256": "ccdb8f53719f110be3ce56ed5979b315822a043cf99203b459c1a48fc80fee38"
+  },
+  {
+   "file": "src-0038",
+   "bytes": 67108864,
+   "sha256": "1cd4c59175314bc3c299b2423f5b0d2da450b37feb7f5314c7abe887fabe86e7"
+  },
+  {
+   "file": "src-0039",
+   "bytes": 67108864,
+   "sha256": "4b82a59f689b14c41da1cb754e1adef43c33a1c2a4c2abf9db500bbdbd5fbd9c"
+  },
+  {
+   "file": "src-0040",
+   "bytes": 67108864,
+   "sha256": "53f6489056b47391e6d54585b71f89ba0e30ed7491e2959cc3f6e8be4f7451db"
+  },
+  {
+   "file": "src-0041",
+   "bytes": 67108864,
+   "sha256": "0161630079283b69d73178c41a7888807e4ebe4e6124bfb22c03dc3eca42f50c"
+  },
+  {
+   "file": "src-0042",
+   "bytes": 53670948,
+   "sha256": "ffcef63e324fe0d65095c3ed8f3a282729869409ad9340be792afcfddebc43d1"
+  }
+ ],
+ "repos": {
+  ".": {
+   "branch": "agents",
+   "rev": "d0222bfef70b143060d17034722297dffa9c2074"
+  },
+  "awesome-claude-corporate-skills": {
+   "branch": "main",
+   "rev": "78dbc7c719920610d5b1c60bd13d9bb52d711c7a"
+  },
+  "claude-for-legal": {
+   "branch": "main",
+   "rev": "4a6c651889c97cc9140580363c73e0eb17379c2b"
+  },
+  "garm": {
+   "branch": "main",
+   "rev": "158fe569f61a491198501162805be4cd0c843da0"
+  },
+  "gosti": {
+   "branch": "agents",
+   "rev": "f3b84ac779c62e3313a00febda199ce82b933ffd"
+  },
+  "gosti-pm": {
+   "branch": "latest",
+   "rev": "657a9640a35e70eb9697d58725e7fad95f0b7723"
+  },
+  "grc-skills": {
+   "branch": "main",
+   "rev": "aab13e1eb1dbf3b537b66f98d9b5eb52db0a7c25"
+  },
+  "infra": {
+   "branch": "live",
+   "rev": "c39ef90ed80ad091bbf1cd17c35723cf1268a0b9"
+  },
+  "io-mon": {
+   "branch": "agents",
+   "rev": "3f50a3d7e8526f8d157c599b62b5dce264bd2a42"
+  },
+  "marketingskills": {
+   "branch": "main",
+   "rev": "88c79f6528a9347420e57ceb1fff9a60de651768"
+  },
+  "metacraft-dev-guidelines": {
+   "branch": "latest",
+   "rev": "ce6dab1901a2ccd16c732ed4bbc521da7ad482bd"
+  },
+  "metacraft-github-actions": {
+   "branch": "agents",
+   "rev": "3dafd20b3e5c8d5447e4793bcc9b72106f83e49f"
+  },
+  "metacraft-pm": {
+   "branch": "latest",
+   "rev": "43264aaecc6e3a43cc96e21b85c38355856751f6"
+  },
+  "nim-everywhere": {
+   "branch": "agents",
+   "rev": "1ef439320e7c11cad9a11a13960e94d37afe8482"
+  },
+  "nim-shm-gset": {
+   "branch": "agents",
+   "rev": "6333cc915689559b00f81371734783c2e894ca45"
+  },
+  "nim-shm-lease": {
+   "branch": "agents",
+   "rev": "22e3100cdb4fbc374689ddac55b4b32c90654140"
+  },
+  "nim-shm-queue": {
+   "branch": "agents",
+   "rev": "84fd76b174d4868e703ba3d599668ee340e0b6ea"
+  },
+  "nim-stackable-hooks": {
+   "branch": "agents",
+   "rev": "c1d55ce33fb2a29e4cf8d8bdbe1713f355370d0a"
+  },
+  "nixos-modules": {
+   "branch": "agents",
+   "rev": "e78d5c603dcd912da501a73cc2e8c1b7c1b58f16"
+  },
+  "reprobuild": {
+   "branch": "agents",
+   "rev": "4180220b405006d64c87b28cb5885f0deda39b6f"
+  },
+  "reprobuild-brew-packages": {
+   "branch": "agents",
+   "rev": "49f4057f05b2ebd69d764208279ad5c8b1379fab"
+  },
+  "reprobuild-cmake": {
+   "branch": "reprobuild",
+   "rev": "67103c8590bda727f4a421c5e05a7b216d7782f7"
+  },
+  "reprobuild-ct-test-runner": {
+   "branch": "agents",
+   "rev": "69167f4226e0faca4fb64cb0e913c7b49eddf853"
+  },
+  "reprobuild-examples": {
+   "branch": "agents",
+   "rev": "6387d33bdaed57da72867f99fd6108f19c45a233"
+  },
+  "reprobuild-llm-agent-packages": {
+   "branch": "dev",
+   "rev": "383df06d6fa9b694d1cd19cb4e6377eb32cfbf3d"
+  },
+  "reprobuild-nix-packages": {
+   "branch": "agents",
+   "rev": "bb14c2e1b25e50be320261bea93400263f2deeb5"
+  },
+  "reprobuild-packages": {
+   "branch": "agents",
+   "rev": "b68b01d3a775709869b1f2ba5f7f70f01873f20c"
+  },
+  "reprobuild-pm": {
+   "branch": "latest",
+   "rev": "93bfb7c245235e91e57229f82b247887569db587"
+  },
+  "reprobuild-scoop-packages": {
+   "branch": "agents",
+   "rev": "843f7c3a638e5503332baeb56c5c85dd60661280"
+  },
+  "reprobuild-test-adapters": {
+   "branch": "agents",
+   "rev": "b0fc1bcb9c2f1cb6a7fc3a558592ae7051782c24"
+  },
+  "runquota": {
+   "branch": "agents",
+   "rev": "672adfd3e9bcd0256f0e7b0b103c1acd68699878"
+  },
+  "stackable-hooks-macos-tools": {
+   "branch": "agents",
+   "rev": "1ad378d58776ec9b6cc73e1c27b8e53c15676f03"
+  },
+  "test-certificates-spec": {
+   "branch": "latest",
+   "rev": "9ebbcb3c9e539f294dbe125dea87c445b270523e"
+  },
+  "test-certificates-tools": {
+   "branch": "agents",
+   "rev": "4b395de551d86c745d6eb8ebf7c7228df25298f5"
+  },
+  "turing-db-pm": {
+   "branch": "latest",
+   "rev": "e0a3763321500641fe5bf063d7dc2c12532107e3"
+  },
+  "references/radicle": {
+   "branch": "main",
+   "rev": "e6fe52075382479165467933baa23dcfd185006e"
+  },
+  "reprobuild/references/0install": {
+   "branch": "master",
+   "rev": "8ab22bc185ec196497bd956980ffee65de0cd656"
+  },
+  "reprobuild/references/buildxl": {
+   "branch": "main",
+   "rev": "bb47829d070db954ea03c1bac9f524c5c175fe41"
+  },
+  "reprobuild/references/llvm-project": {
+   "branch": "main",
+   "rev": "442bbe111c8204f0f492060558c238fa51823123"
+  },
+  "reprobuild/references/mold": {
+   "branch": "main",
+   "rev": "331ac663668dc0b1f4949403854613b9b1913025"
+  },
+  "reprobuild/references/nix": {
+   "branch": "master",
+   "rev": "7ee0a4d5bca3e8398032998f4293b37060d1e08a"
+  },
+  "reprobuild/references/opentofu": {
+   "branch": "main",
+   "rev": "9f21216fa0565fbf174198645daaa8ce6a4e0162"
+  },
+  "reprobuild/references/spack": {
+   "branch": "develop",
+   "rev": "13240694c3fbc0bb2c0f34972524549b7da424e4"
+  },
+  "reprobuild/references/terraform": {
+   "branch": "main",
+   "rev": "eb0970714fb46d61775d003f8db43642814f6f78"
+  },
+  "reprobuild/references/wild": {
+   "branch": "main",
+   "rev": "92c0818ed02347790692a3d596776419be51b61a"
+  }
+ }
+}
